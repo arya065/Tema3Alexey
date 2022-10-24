@@ -1,18 +1,18 @@
 package estructurasDeRepeticion;
 import java.util.*;
 
-public class Ej01 {
+public class Ej03 {
 
     public static void main(String[] args) {
 
-        int x = 1;
-       
-        while (x<=100) {
+        Scanner teclado=new Scanner(System.in);
+        int x;
+        x=15;
+        for (int i=1;i<=25;i++) {
             System.out.print(x);
             System.out.print(" - ");
-            x = x + 1;
-        }
+            x *= 2;
         }
     }
+}
 
-//se imprime fase 1-2-3...-99-100-
